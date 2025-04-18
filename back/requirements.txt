@@ -1,0 +1,32 @@
+# Core Django
+Django==5.0.4
+djangorestframework==3.15.1
+drf-yasg==1.21.7  # Swagger documentation
+
+# File processing
+PyPDF2==3.0.1      # PDF handling
+python-docx==1.1.0 # DOCX handling
+
+# NLP processing
+spacy==3.7.4       # NLP features
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.0/en_core_web_sm-3.7.0-py3-none-any.whl  # Spacy model
+
+# Machine Learning
+scikit-learn==1.4.1.post1  # Cosine similarity/TF-IDF
+
+# MongoDB integration
+mongoengine==0.27.0
+
+# Data validation
+pydantic==2.6.3
+
+# Authentication
+djangorestframework-simplejwt==5.3.1  # JWT tokens
+
+# Additional utilities
+python-decouple==3.8  # Environment variables
+Pillow==10.2.0        # Image handling
+
+# ASGI/WSGI servers
+uvicorn==0.27.1
+gunicorn==21.2.0 

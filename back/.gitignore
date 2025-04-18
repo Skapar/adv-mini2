@@ -1,0 +1,15 @@
+# Environment
+.env
+
+# Virtual environment
+venv/
+
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+media/
+
+# Database
+*.sqlite3
